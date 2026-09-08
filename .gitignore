@@ -1,0 +1,12 @@
+.tools/
+ChecklistSource/
+node_modules/
+dist/
+source-extract.json
+*.log
+backups/
+.DS_Store
+.wrangler/
+worker/.dev.vars
+worker/wrangler.local.json
+.env*

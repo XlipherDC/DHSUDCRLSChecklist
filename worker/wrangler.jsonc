@@ -1,0 +1,22 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "crls-api",
+  "main": "index.js",
+  "compatibility_date": "2026-09-08",
+  "workers_dev": true,
+  "preview_urls": false,
+  "vars": {
+    "WORKSPACE_NAME": "DHSUD CRLS",
+    "ALLOWED_ORIGINS": "http://127.0.0.1:4173,http://localhost:4173"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "crls-records",
+      "database_id": "c15d51cd-9f75-4fdf-9cab-82c5a8a308c2"
+    }
+  ],
+  "observability": {
+    "enabled": false
+  }
+}

@@ -1,0 +1,1943 @@
+{
+  "condominium": {
+    "label": "Condominium",
+    "source": "CRLS-Condominium-Checklist - USWAG 4PH.xlsx",
+    "requirements": [
+      {
+        "id": "condominium-B10",
+        "title": "Application Letter",
+        "category": "Application & declarations",
+        "source": "Checklist!B10",
+        "details": []
+      },
+      {
+        "id": "condominium-B11",
+        "title": "Notarized Application Form",
+        "category": "Application & declarations",
+        "source": "Checklist!B11",
+        "details": []
+      },
+      {
+        "id": "condominium-B12",
+        "title": "Notarized Registration Statement",
+        "category": "Application & declarations",
+        "source": "Checklist!B12",
+        "details": [
+          {
+            "text": "Area for Registration:",
+            "ref": "Checklist!C13"
+          },
+          {
+            "text": "Name of Applicant:",
+            "ref": "Checklist!C14"
+          },
+          {
+            "text": "Position of Applicant:",
+            "ref": "Checklist!C15"
+          },
+          {
+            "text": "Title No. for Registration:",
+            "ref": "Checklist!C16"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B18",
+        "title": "Affidavit signifying willingness to change name",
+        "category": "Application & declarations",
+        "source": "Checklist!B18",
+        "details": []
+      },
+      {
+        "id": "condominium-B19",
+        "title": "Affidavit incorporating pertinent provisions of PD957/BP220/EO648",
+        "category": "Application & declarations",
+        "source": "Checklist!B19",
+        "details": []
+      },
+      {
+        "id": "condominium-B20",
+        "title": "Secretary's Certificate",
+        "category": "Application & declarations",
+        "source": "Checklist!B20",
+        "details": []
+      },
+      {
+        "id": "condominium-B21",
+        "title": "Notarized Application for Temporary License to Sell (TLS)",
+        "category": "Application & declarations",
+        "source": "Checklist!B21",
+        "details": [
+          {
+            "text": "With Undertaking to refund lot buyers (pro forma)",
+            "ref": "Checklist!C22"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B23",
+        "title": "Sworn Statement that the applicant has no unsatisfied FINAL OIAS or no FINAL NOTICE TO COMPLY(FNC) with DHSUD",
+        "category": "Application & declarations",
+        "source": "Checklist!B23",
+        "details": [
+          {
+            "text": "Date Notarized",
+            "ref": "Checklist!C24"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B25",
+        "title": "Certified True Copy of Titles:",
+        "category": "Land & ownership",
+        "source": "Checklist!B25",
+        "details": [
+          {
+            "text": "Lot Numbers:",
+            "ref": "Checklist!C27"
+          },
+          {
+            "text": "Area:",
+            "ref": "Checklist!C29"
+          },
+          {
+            "text": "Liens and Encumbrances:",
+            "ref": "Checklist!C31"
+          },
+          {
+            "text": "with Lis Pendens",
+            "ref": "Checklist!D32"
+          },
+          {
+            "text": "under CLOA",
+            "ref": "Checklist!D33"
+          },
+          {
+            "text": "with Mortgage",
+            "ref": "Checklist!D34"
+          },
+          {
+            "text": "cancelled",
+            "ref": "Checklist!E35"
+          },
+          {
+            "text": "w/ Undertaking of Mortgagee",
+            "ref": "Checklist!E36"
+          },
+          {
+            "text": "w/ Undertaking of Mortgagor",
+            "ref": "Checklist!E37"
+          },
+          {
+            "text": "Certification from Mortgagee regarding the outstanding balance of the loan and amortization schedule",
+            "ref": "Checklist!E38"
+          },
+          {
+            "text": "Mortgage Contract",
+            "ref": "Checklist!E39"
+          },
+          {
+            "text": "under CARP",
+            "ref": "Checklist!D40"
+          },
+          {
+            "text": "Others",
+            "ref": "Checklist!D41"
+          },
+          {
+            "text": "Name of Owner:",
+            "ref": "Checklist!C42"
+          },
+          {
+            "text": "Date Certified as True:",
+            "ref": "Checklist!C43"
+          },
+          {
+            "text": "w/ Annotattion of JVA (if applicable)",
+            "ref": "Checklist!C44"
+          },
+          {
+            "text": "JVA with:",
+            "ref": "Checklist!D45"
+          },
+          {
+            "text": "With Deed of Absolute Sale (DOAS)",
+            "ref": "Checklist!C46"
+          },
+          {
+            "text": "Sold to:",
+            "ref": "Checklist!D47"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B48",
+        "title": "Certified True Copy of LMS approved plan",
+        "category": "Plans & permits",
+        "source": "Checklist!B48",
+        "details": [
+          {
+            "text": "2 copies",
+            "ref": "Checklist!C49"
+          },
+          {
+            "text": "Titles included in the survey plan:",
+            "ref": "Checklist!C50"
+          },
+          {
+            "text": "Lots included in the survey plan:",
+            "ref": "Checklist!C54"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B58",
+        "title": "Technical Descriptions of Road lots and Open Spaces",
+        "category": "Plans & permits",
+        "source": "Checklist!B58",
+        "details": [
+          {
+            "text": "with annotation as Parks and Playground",
+            "ref": "Checklist!C59"
+          },
+          {
+            "text": "with annotation as Community Faciluty",
+            "ref": "Checklist!C60"
+          },
+          {
+            "text": "with annotation as Road lots/Alley",
+            "ref": "Checklist!C61"
+          },
+          {
+            "text": "with annotation as other common use",
+            "ref": "Checklist!C62"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B63",
+        "title": "Lot Description",
+        "category": "Plans & permits",
+        "source": "Checklist!B63",
+        "details": []
+      },
+      {
+        "id": "condominium-B64",
+        "title": "Tabulation of Areas",
+        "category": "Plans & permits",
+        "source": "Checklist!B64",
+        "details": []
+      },
+      {
+        "id": "condominium-B65",
+        "title": "Design and Standards Checklist",
+        "category": "Plans & permits",
+        "source": "Checklist!B65",
+        "details": []
+      },
+      {
+        "id": "condominium-B66",
+        "title": "LGU approved Form (DPFA form)/Alteration Approval Form",
+        "category": "Plans & permits",
+        "source": "Checklist!B66",
+        "details": [
+          {
+            "text": "Permit No.:",
+            "ref": "Checklist!C67"
+          },
+          {
+            "text": "Date of Approval:",
+            "ref": "Checklist!C68"
+          },
+          {
+            "text": "Area:",
+            "ref": "Checklist!C69"
+          },
+          {
+            "text": "Developer:",
+            "ref": "Checklist!C70"
+          },
+          {
+            "text": "Certified Ture Copy",
+            "ref": "Checklist!C71"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B72",
+        "title": "CTC of Sangguniang Resolution approving the Development Permit",
+        "category": "Plans & permits",
+        "source": "Checklist!B72",
+        "details": []
+      },
+      {
+        "id": "condominium-B73",
+        "title": "Letter of Conformity of buyers/Homeowners Association (For Altered lots)",
+        "category": "Plans & permits",
+        "source": "Checklist!B73",
+        "details": []
+      },
+      {
+        "id": "condominium-B74",
+        "title": "Affidavit of conformity of buyers if lots are already sold (for LS Amendment and Altered )",
+        "category": "Plans & permits",
+        "source": "Checklist!B74",
+        "details": []
+      },
+      {
+        "id": "condominium-B75",
+        "title": "Notarized Sales Status Report (for LS Amendment and Altered lots)",
+        "category": "Plans & permits",
+        "source": "Checklist!B75",
+        "details": []
+      },
+      {
+        "id": "condominium-B76",
+        "title": "Latest Tax Declaration",
+        "category": "Plans & permits",
+        "source": "Checklist!B76",
+        "details": []
+      },
+      {
+        "id": "condominium-B77",
+        "title": "Latest Tax Clearance",
+        "category": "Plans & permits",
+        "source": "Checklist!B77",
+        "details": []
+      },
+      {
+        "id": "condominium-B78",
+        "title": "DHSUD Zoning Certification",
+        "category": "Plans & permits",
+        "source": "Checklist!B78",
+        "details": [
+          {
+            "text": "Zoning Classification:",
+            "ref": "Checklist!C79"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B80",
+        "title": "CTC of Sangguniang Resolution approving the re-classification (if applicable)",
+        "category": "Plans & permits",
+        "source": "Checklist!B80",
+        "details": []
+      },
+      {
+        "id": "condominium-B81",
+        "title": "Site pictures",
+        "category": "Plans & permits",
+        "source": "Checklist!B81",
+        "details": []
+      },
+      {
+        "id": "condominium-B82",
+        "title": "Proof of Access Road:",
+        "category": "Plans & permits",
+        "source": "Checklist!B82",
+        "details": []
+      },
+      {
+        "id": "condominium-B83",
+        "title": "UDHA Compliance form",
+        "category": "Socialized housing compliance",
+        "source": "Checklist!B83",
+        "details": [
+          {
+            "text": "Type of Compliance:",
+            "ref": "Checklist!B86"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B87",
+        "title": "Development of Socialized Housing in a New Settlement",
+        "category": "Socialized housing compliance",
+        "source": "Checklist!B87",
+        "details": [
+          {
+            "text": "SHP by the same Developer",
+            "ref": "Checklist!C88"
+          },
+          {
+            "text": "On-site",
+            "ref": "Checklist!D89"
+          },
+          {
+            "text": "Off-site",
+            "ref": "Checklist!D90"
+          },
+          {
+            "text": "with Accreditation from Central Office",
+            "ref": "Checklist!E91"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B92",
+        "title": "Joint-Venture projects",
+        "category": "Socialized housing compliance",
+        "source": "Checklist!B92",
+        "details": [
+          {
+            "text": "JVA with the LGU",
+            "ref": "Checklist!C93"
+          },
+          {
+            "text": "LGU:",
+            "ref": "Checklist!D94"
+          },
+          {
+            "text": "JVA with any of the Housing Agencies",
+            "ref": "Checklist!C95"
+          },
+          {
+            "text": "Agency:",
+            "ref": "Checklist!D96"
+          },
+          {
+            "text": "JVA with another private socialized housing Developer",
+            "ref": "Checklist!C97"
+          },
+          {
+            "text": "Developer:",
+            "ref": "Checklist!D98"
+          },
+          {
+            "text": "JVA with a Non-Gov't Organization (NGO) engaged in the provision of SH",
+            "ref": "Checklist!C99"
+          },
+          {
+            "text": "NGO:",
+            "ref": "Checklist!D100"
+          },
+          {
+            "text": "With Accreditation form Central Office",
+            "ref": "Checklist!C101"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B102",
+        "title": "Participation in a new project under CMP through Land Development",
+        "category": "Socialized housing compliance",
+        "source": "Checklist!B102",
+        "details": [
+          {
+            "text": "Providing parcel of land",
+            "ref": "Checklist!C103"
+          },
+          {
+            "text": "Land Development or housing",
+            "ref": "Checklist!C104"
+          },
+          {
+            "text": "provision or development of right of way or access to roads, upgrading of amenities, facilities or other forms of development",
+            "ref": "Checklist!C105"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B106",
+        "title": "Participation through Investment",
+        "category": "Socialized housing compliance",
+        "source": "Checklist!B106",
+        "details": [
+          {
+            "text": "Through third party for implementation of land development, installation of water facility or power utility",
+            "ref": "Checklist!C107"
+          },
+          {
+            "text": "Construction through third party of non-saleable and non-recoverable housing projects",
+            "ref": "Checklist!C108"
+          },
+          {
+            "text": "on land owned by government or donated private land",
+            "ref": "Checklist!C109"
+          },
+          {
+            "text": "housing for AFP personnel",
+            "ref": "Checklist!E110"
+          },
+          {
+            "text": "public housing",
+            "ref": "Checklist!E111"
+          },
+          {
+            "text": "rehabilitation of calamity-stricken communities",
+            "ref": "Checklist!E112"
+          },
+          {
+            "text": "housing for street children, indigent elderly and people with disability",
+            "ref": "Checklist!E113"
+          },
+          {
+            "text": "Other types of projects",
+            "ref": "Checklist!E114"
+          },
+          {
+            "text": "Escrow Draft (if needed)",
+            "ref": "Checklist!C115"
+          },
+          {
+            "text": "Endorsement to Central Office",
+            "ref": "Checklist!C116"
+          },
+          {
+            "text": "MOA with:",
+            "ref": "Checklist!C117"
+          },
+          {
+            "text": "Endorsement approved by Central Office",
+            "ref": "Checklist!C118"
+          },
+          {
+            "text": "Final Escrow Agreement",
+            "ref": "Checklist!C119"
+          },
+          {
+            "text": "Proof of Bank Deposit",
+            "ref": "Checklist!C120"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B121",
+        "title": "Participation or subscription of \"Asset-Backed Securities\"",
+        "category": "Socialized housing compliance",
+        "source": "Checklist!B121",
+        "details": [
+          {
+            "text": "Housing agency:",
+            "ref": "Checklist!C122"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B123",
+        "title": "Deferment to submit Socialized Housing Compliance",
+        "category": "Socialized housing compliance",
+        "source": "Checklist!B123",
+        "details": [
+          {
+            "text": "Undertaking to submit SH Compliance",
+            "ref": "Checklist!C124"
+          },
+          {
+            "text": "Name/Title of proposed compliance:",
+            "ref": "Checklist!C125"
+          },
+          {
+            "text": "Location:",
+            "ref": "Checklist!D126"
+          },
+          {
+            "text": "Owner:",
+            "ref": "Checklist!D127"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B128",
+        "title": "Computation of Socialized housing compliance",
+        "category": "Socialized housing compliance",
+        "source": "Checklist!B128",
+        "details": []
+      },
+      {
+        "id": "condominium-B129",
+        "title": "BIR Zonal Value Certification",
+        "category": "Financial & corporate documents",
+        "source": "Checklist!B129",
+        "details": []
+      },
+      {
+        "id": "condominium-B130",
+        "title": "Program of Development duly signed by Licensed Civil Engineer",
+        "category": "Financial & corporate documents",
+        "source": "Checklist!B130",
+        "details": []
+      },
+      {
+        "id": "condominium-B131",
+        "title": "Project Study",
+        "category": "Financial & corporate documents",
+        "source": "Checklist!B131",
+        "details": [
+          {
+            "text": "Marketability",
+            "ref": "Checklist!C132"
+          },
+          {
+            "text": "Cash Flow",
+            "ref": "Checklist!C133"
+          },
+          {
+            "text": "Project Amount",
+            "ref": "Checklist!C134"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B135",
+        "title": "Notarized Fact Sheet",
+        "category": "Financial & corporate documents",
+        "source": "Checklist!B135",
+        "details": [
+          {
+            "text": "Main Project",
+            "ref": "Checklist!C136"
+          },
+          {
+            "text": "Socialzied Project",
+            "ref": "Checklist!C137"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B138",
+        "title": "Latest Audited Financial Statement/Income Tax Returns",
+        "category": "Financial & corporate documents",
+        "source": "Checklist!B138",
+        "details": []
+      },
+      {
+        "id": "condominium-B139",
+        "title": "Sample contract to Sell",
+        "category": "Financial & corporate documents",
+        "source": "Checklist!B139",
+        "details": []
+      },
+      {
+        "id": "condominium-B140",
+        "title": "Management/Development Contract with:",
+        "category": "Financial & corporate documents",
+        "source": "Checklist!B140",
+        "details": [
+          {
+            "text": "Project Name mentioned (the same as application)",
+            "ref": "Checklist!C141"
+          },
+          {
+            "text": "Title/property in the JVA/MOA the same with the application",
+            "ref": "Checklist!C142"
+          },
+          {
+            "text": "Area considered is the same with the application",
+            "ref": "Checklist!C143"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B144",
+        "title": "Deed of Absolute Sale/Deed of assumption to mortgage (if any)",
+        "category": "Financial & corporate documents",
+        "source": "Checklist!B144",
+        "details": []
+      },
+      {
+        "id": "condominium-B145",
+        "title": "SEC Reg. Articles of Incorporation and By-Laws",
+        "category": "Financial & corporate documents",
+        "source": "Checklist!B145",
+        "details": []
+      },
+      {
+        "id": "condominium-B146",
+        "title": "DAR Clearance/conversion",
+        "category": "Clearances & utilities",
+        "source": "Checklist!B146",
+        "details": []
+      },
+      {
+        "id": "condominium-B147",
+        "title": "Certified True Copy of ECC/CNC from DENR",
+        "category": "Clearances & utilities",
+        "source": "Checklist!B147",
+        "details": []
+      },
+      {
+        "id": "condominium-B148",
+        "title": "Affidavit Compliance w/ Res.No.532/PD953 (Tree Planting)",
+        "category": "Clearances & utilities",
+        "source": "Checklist!B148",
+        "details": []
+      },
+      {
+        "id": "condominium-B149",
+        "title": "Electrical Dist. Permit/Contract",
+        "category": "Clearances & utilities",
+        "source": "Checklist!B149",
+        "details": [
+          {
+            "text": "From Local Public Service Provider",
+            "ref": "Checklist!C150"
+          },
+          {
+            "text": "Not Local Public Service Provider",
+            "ref": "Checklist!C151"
+          },
+          {
+            "text": "Certification form Local Public Service Provider (not capable to provide)",
+            "ref": "Checklist!D152"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B153",
+        "title": "Water Dist. Permit/Contract",
+        "category": "Clearances & utilities",
+        "source": "Checklist!B153",
+        "details": [
+          {
+            "text": "From Local Public Service Provider",
+            "ref": "Checklist!C154"
+          },
+          {
+            "text": "Not Local Public Service Provider",
+            "ref": "Checklist!C155"
+          },
+          {
+            "text": "Certification form Local Public Service Provider (not capable to provide)",
+            "ref": "Checklist!D156"
+          },
+          {
+            "text": "Deep Well",
+            "ref": "Checklist!C157"
+          },
+          {
+            "text": "Certification form NWRB",
+            "ref": "Checklist!D158"
+          },
+          {
+            "text": "with potability test",
+            "ref": "Checklist!E159"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B164",
+        "title": "Publisher's affidavits of publication",
+        "category": "Publication & guarantees",
+        "source": "Checklist!B164",
+        "details": [
+          {
+            "text": "Copy of newspaper publication",
+            "ref": "Checklist!C165"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B166",
+        "title": "Affidavit: Posting of Billboard Notice",
+        "category": "Publication & guarantees",
+        "source": "Checklist!B166",
+        "details": []
+      },
+      {
+        "id": "condominium-B167",
+        "title": "Monitoring Clearance",
+        "category": "Publication & guarantees",
+        "source": "Checklist!B167",
+        "details": []
+      },
+      {
+        "id": "condominium-B168",
+        "title": "Affidavit of Undertaking to Submit Titles",
+        "category": "Publication & guarantees",
+        "source": "Checklist!B168",
+        "details": []
+      },
+      {
+        "id": "condominium-B169",
+        "title": "Accomplishment computation for Performance Bond",
+        "category": "Publication & guarantees",
+        "source": "Checklist!B169",
+        "details": []
+      },
+      {
+        "id": "condominium-B170",
+        "title": "Performance Bond",
+        "category": "Publication & guarantees",
+        "source": "Checklist!B170",
+        "details": [
+          {
+            "text": "Amount:",
+            "ref": "Checklist!B171"
+          },
+          {
+            "text": "Name of Bonding company:",
+            "ref": "Checklist!B172"
+          },
+          {
+            "text": "Validity:",
+            "ref": "Checklist!B173"
+          },
+          {
+            "text": "with Rider",
+            "ref": "Checklist!C174"
+          },
+          {
+            "text": "with Insurance Co.'s Renewal of Authority",
+            "ref": "Checklist!C175"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B176",
+        "title": "Cash Bond",
+        "category": "Publication & guarantees",
+        "source": "Checklist!B176",
+        "details": [
+          {
+            "text": "Amount:",
+            "ref": "Checklist!B177"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B178",
+        "title": "Engineering plans of housing units (if any)",
+        "category": "Final plans & processing",
+        "source": "Checklist!B178",
+        "details": [
+          {
+            "text": "Signed and sealed by a Licensed Professional",
+            "ref": "Checklist!C179"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B180",
+        "title": "Processing Fee",
+        "category": "Final plans & processing",
+        "source": "Checklist!B180",
+        "details": [
+          {
+            "text": "O.R. No:",
+            "ref": "Checklist!B181"
+          },
+          {
+            "text": "Amount:",
+            "ref": "Checklist!B182"
+          },
+          {
+            "text": "Date:",
+            "ref": "Checklist!B183"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B184",
+        "title": "LGU approved plans",
+        "category": "Final plans & processing",
+        "source": "Checklist!B184",
+        "details": [
+          {
+            "text": "Site Development Plan",
+            "ref": "Checklist!C185"
+          },
+          {
+            "text": "Vicinity Map / Location Plan",
+            "ref": "Checklist!C186"
+          },
+          {
+            "text": "Topographic Map",
+            "ref": "Checklist!C187"
+          },
+          {
+            "text": "Drainage Layout",
+            "ref": "Checklist!C188"
+          },
+          {
+            "text": "Drainage Profile  Outfall",
+            "ref": "Checklist!C189"
+          },
+          {
+            "text": "Public ( LGU existing drainage line)",
+            "ref": "Checklist!D190"
+          },
+          {
+            "text": "Private",
+            "ref": "Checklist!D191"
+          },
+          {
+            "text": "Have clearance",
+            "ref": "Checklist!E192"
+          },
+          {
+            "text": "Road Cross-Sections",
+            "ref": "Checklist!C193"
+          },
+          {
+            "text": "Drainage Cross-Sections",
+            "ref": "Checklist!C194"
+          },
+          {
+            "text": "Road Profile",
+            "ref": "Checklist!C195"
+          },
+          {
+            "text": "Site Grading Plan",
+            "ref": "Checklist!C196"
+          },
+          {
+            "text": "Electrical Distribution Plan",
+            "ref": "Checklist!C197"
+          },
+          {
+            "text": "Water Distribution Plan",
+            "ref": "Checklist!C198"
+          },
+          {
+            "text": "Tree Planting Scheme",
+            "ref": "Checklist!C199"
+          },
+          {
+            "text": "Others",
+            "ref": "Checklist!C200"
+          }
+        ]
+      },
+      {
+        "id": "condominium-B202",
+        "title": "Master Deed Final Draft Annotated to the Title",
+        "category": "Final plans & processing",
+        "source": "Checklist!B202",
+        "details": []
+      },
+      {
+        "id": "condominium-B203",
+        "title": "Clearance of No Final Order of Imposition of Administrative Sanctions (OIAS) issued by the concerned Regional Office",
+        "category": "Final plans & processing",
+        "source": "Checklist!B203",
+        "details": []
+      },
+      {
+        "id": "condominium-B204",
+        "title": "Certification of No Final Notice to Comply issued by HREDRB",
+        "category": "Final plans & processing",
+        "source": "Checklist!B204",
+        "details": []
+      },
+      {
+        "id": "condominium-B205",
+        "title": "Certification of No Lien or Encumbrances",
+        "category": "Final plans & processing",
+        "source": "Checklist!B205",
+        "details": []
+      },
+      {
+        "id": "condominium-B206",
+        "title": "Other Required documents",
+        "category": "Final plans & processing",
+        "source": "Checklist!B206",
+        "details": []
+      }
+    ],
+    "rates": {
+      "pd957Registration": {
+        "value": 2880,
+        "source": "Fee!L11"
+      },
+      "economicRegistration": {
+        "value": 720,
+        "source": "Fee!L20"
+      },
+      "socializedRegistration": {
+        "value": 420,
+        "source": "Fee!L19"
+      },
+      "pd957Processing": {
+        "value": 17.3,
+        "source": "Fee!G13"
+      },
+      "commercialProcessing": {
+        "value": 36,
+        "source": "Fee!G14"
+      },
+      "socializedProcessing": {
+        "value": 24,
+        "source": "Fee!G22"
+      },
+      "economicProcessing": {
+        "value": 72,
+        "source": "Fee!G23"
+      },
+      "bp220Housing": {
+        "value": 3,
+        "source": "Fee!G24"
+      },
+      "crForm": {
+        "value": 216,
+        "source": "Fee!L15"
+      },
+      "lsForm": {
+        "value": 216,
+        "source": "Fee!L16"
+      },
+      "inspection": {
+        "value": 1500,
+        "source": "Fee!G28"
+      },
+      "provisional": {
+        "value": 216,
+        "source": "Fee!G51"
+      }
+    }
+  },
+  "subdivision": {
+    "label": "Subdivision",
+    "source": "CRLS-Subdivision-Checklist - San Lorenzo Residences.xlsx",
+    "requirements": [
+      {
+        "id": "subdivision-B10",
+        "title": "Notarized Application Letter",
+        "category": "Application & declarations",
+        "source": "Checklist (2)!B10",
+        "details": []
+      },
+      {
+        "id": "subdivision-B11",
+        "title": "Notarized Registration Statement",
+        "category": "Application & declarations",
+        "source": "Checklist (2)!B11",
+        "details": [
+          {
+            "text": "Area for Registration:",
+            "ref": "Checklist (2)!C12"
+          },
+          {
+            "text": "Name of Applicant:",
+            "ref": "Checklist (2)!C13"
+          },
+          {
+            "text": "Position of Applicant:",
+            "ref": "Checklist (2)!C14"
+          },
+          {
+            "text": "Title No. for Registration:",
+            "ref": "Checklist (2)!C15"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B19",
+        "title": "Affidavit signifying willingness to change name",
+        "category": "Application & declarations",
+        "source": "Checklist (2)!B19",
+        "details": []
+      },
+      {
+        "id": "subdivision-B20",
+        "title": "Affidavit incorporating pertinent provisions of PD957/BP220/EO648",
+        "category": "Application & declarations",
+        "source": "Checklist (2)!B20",
+        "details": []
+      },
+      {
+        "id": "subdivision-B21",
+        "title": "Secretary's Certificate",
+        "category": "Application & declarations",
+        "source": "Checklist (2)!B21",
+        "details": []
+      },
+      {
+        "id": "subdivision-B22",
+        "title": "Notarized Application for Temporary License to Sell (TLS)",
+        "category": "Application & declarations",
+        "source": "Checklist (2)!B22",
+        "details": [
+          {
+            "text": "With Undertaking to refund lot buyers (pro forma)",
+            "ref": "Checklist (2)!C23"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B24",
+        "title": "Sworn Statement that the applicant has no unsatisfied FINAL OIAS or no FINAL NOTICE TO COMPLY(FNC) with DHSUD",
+        "category": "Application & declarations",
+        "source": "Checklist (2)!B24",
+        "details": [
+          {
+            "text": "Date Notarized",
+            "ref": "Checklist (2)!C25"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B26",
+        "title": "Certified True Copy of Titles:",
+        "category": "Land & ownership",
+        "source": "Checklist (2)!B26",
+        "details": [
+          {
+            "text": "Lot Numbers:",
+            "ref": "Checklist (2)!C31"
+          },
+          {
+            "text": "Area:",
+            "ref": "Checklist (2)!C35"
+          },
+          {
+            "text": "Liens and Encumbrances:",
+            "ref": "Checklist (2)!C36"
+          },
+          {
+            "text": "with Lis Pendens",
+            "ref": "Checklist (2)!D37"
+          },
+          {
+            "text": "under CLOA",
+            "ref": "Checklist (2)!D38"
+          },
+          {
+            "text": "with Mortgage",
+            "ref": "Checklist (2)!D39"
+          },
+          {
+            "text": "cancelled",
+            "ref": "Checklist (2)!E40"
+          },
+          {
+            "text": "w/ Undertaking of Mortgagee",
+            "ref": "Checklist (2)!E41"
+          },
+          {
+            "text": "w/ Undertaking of Mortgagor",
+            "ref": "Checklist (2)!E42"
+          },
+          {
+            "text": "Certification from Mortgagee regarding the outstanding balance of the loan and amortization schedule",
+            "ref": "Checklist (2)!E43"
+          },
+          {
+            "text": "Mortgage Contract",
+            "ref": "Checklist (2)!E44"
+          },
+          {
+            "text": "under CARP",
+            "ref": "Checklist (2)!D45"
+          },
+          {
+            "text": "Others",
+            "ref": "Checklist (2)!D46"
+          },
+          {
+            "text": "Name of Owner:",
+            "ref": "Checklist (2)!C47"
+          },
+          {
+            "text": "Date Certified as True:",
+            "ref": "Checklist (2)!C48"
+          },
+          {
+            "text": "w/ Annotattion of JVA (if applicable)",
+            "ref": "Checklist (2)!C49"
+          },
+          {
+            "text": "JVA with:",
+            "ref": "Checklist (2)!D50"
+          },
+          {
+            "text": "With Deed of Absolute Sale (DOAS)",
+            "ref": "Checklist (2)!C51"
+          },
+          {
+            "text": "Sold to:",
+            "ref": "Checklist (2)!D52"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B53",
+        "title": "Certified True Copy of LMS approved plan",
+        "category": "Plans & permits",
+        "source": "Checklist (2)!B53",
+        "details": [
+          {
+            "text": "2 copies",
+            "ref": "Checklist (2)!C54"
+          },
+          {
+            "text": "Titles included in the survey plan:",
+            "ref": "Checklist (2)!C55"
+          },
+          {
+            "text": "Lots included in the survey plan:",
+            "ref": "Checklist (2)!C60"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B64",
+        "title": "Technical Descriptions of Road lots and Open Spaces",
+        "category": "Plans & permits",
+        "source": "Checklist (2)!B64",
+        "details": [
+          {
+            "text": "with annotation as Parks and Playground",
+            "ref": "Checklist (2)!C65"
+          },
+          {
+            "text": "with annotation as Community Faciluty",
+            "ref": "Checklist (2)!C66"
+          },
+          {
+            "text": "with annotation as Road lots/Alley",
+            "ref": "Checklist (2)!C67"
+          },
+          {
+            "text": "with annotation as other common use",
+            "ref": "Checklist (2)!C68"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B69",
+        "title": "Lot Description",
+        "category": "Plans & permits",
+        "source": "Checklist (2)!B69",
+        "details": []
+      },
+      {
+        "id": "subdivision-B70",
+        "title": "Tabulation of Areas",
+        "category": "Plans & permits",
+        "source": "Checklist (2)!B70",
+        "details": []
+      },
+      {
+        "id": "subdivision-B71",
+        "title": "Design and Standards Checklist",
+        "category": "Plans & permits",
+        "source": "Checklist (2)!B71",
+        "details": []
+      },
+      {
+        "id": "subdivision-B72",
+        "title": "LGU approved Form (DPFA form)/Alteration Approval Form",
+        "category": "Plans & permits",
+        "source": "Checklist (2)!B72",
+        "details": [
+          {
+            "text": "Permit No.:",
+            "ref": "Checklist (2)!C73"
+          },
+          {
+            "text": "Date of Approval:",
+            "ref": "Checklist (2)!C74"
+          },
+          {
+            "text": "Area:",
+            "ref": "Checklist (2)!C75"
+          },
+          {
+            "text": "Developer:",
+            "ref": "Checklist (2)!C76"
+          },
+          {
+            "text": "Certified Ture Copy",
+            "ref": "Checklist (2)!C77"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B78",
+        "title": "CTC of Sangguniang Resolution approving the Development Permit",
+        "category": "Plans & permits",
+        "source": "Checklist (2)!B78",
+        "details": []
+      },
+      {
+        "id": "subdivision-B79",
+        "title": "Letter of Conformity of buyers/Homeowners Association (For Altered lots)",
+        "category": "Plans & permits",
+        "source": "Checklist (2)!B79",
+        "details": []
+      },
+      {
+        "id": "subdivision-B80",
+        "title": "Affidavit of conformity of buyers if lots are already sold (for LS Amendment and Altered )",
+        "category": "Plans & permits",
+        "source": "Checklist (2)!B80",
+        "details": []
+      },
+      {
+        "id": "subdivision-B81",
+        "title": "Notarized Sales Status Report (for LS Amendment and Altered lots)",
+        "category": "Plans & permits",
+        "source": "Checklist (2)!B81",
+        "details": []
+      },
+      {
+        "id": "subdivision-B82",
+        "title": "Latest Tax Declaration",
+        "category": "Plans & permits",
+        "source": "Checklist (2)!B82",
+        "details": []
+      },
+      {
+        "id": "subdivision-B83",
+        "title": "Latest Tax Clearance",
+        "category": "Plans & permits",
+        "source": "Checklist (2)!B83",
+        "details": []
+      },
+      {
+        "id": "subdivision-B84",
+        "title": "DHSUD Zoning Certification",
+        "category": "Plans & permits",
+        "source": "Checklist (2)!B84",
+        "details": [
+          {
+            "text": "Zoning Classification:",
+            "ref": "Checklist (2)!C85"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B86",
+        "title": "CTC of Sangguniang Resolution approving the re-classification (if applicable)",
+        "category": "Plans & permits",
+        "source": "Checklist (2)!B86",
+        "details": []
+      },
+      {
+        "id": "subdivision-B87",
+        "title": "Site pictures",
+        "category": "Plans & permits",
+        "source": "Checklist (2)!B87",
+        "details": []
+      },
+      {
+        "id": "subdivision-B88",
+        "title": "Proof of Access Road:",
+        "category": "Plans & permits",
+        "source": "Checklist (2)!B88",
+        "details": []
+      },
+      {
+        "id": "subdivision-B89",
+        "title": "UDHA Compliance form",
+        "category": "Socialized housing compliance",
+        "source": "Checklist (2)!B89",
+        "details": [
+          {
+            "text": "Type of Compliance:",
+            "ref": "Checklist (2)!B92"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B93",
+        "title": "Development of Socialized Housing in a New Settlement",
+        "category": "Socialized housing compliance",
+        "source": "Checklist (2)!B93",
+        "details": [
+          {
+            "text": "SHP by the same Developer",
+            "ref": "Checklist (2)!C94"
+          },
+          {
+            "text": "On-site",
+            "ref": "Checklist (2)!D95"
+          },
+          {
+            "text": "Off-site",
+            "ref": "Checklist (2)!D96"
+          },
+          {
+            "text": "with Accreditation from Central Office",
+            "ref": "Checklist (2)!E97"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B98",
+        "title": "Joint-Venture projects",
+        "category": "Socialized housing compliance",
+        "source": "Checklist (2)!B98",
+        "details": [
+          {
+            "text": "JVA with the LGU",
+            "ref": "Checklist (2)!C99"
+          },
+          {
+            "text": "LGU:",
+            "ref": "Checklist (2)!D100"
+          },
+          {
+            "text": "JVA with any of the Housing Agencies",
+            "ref": "Checklist (2)!C101"
+          },
+          {
+            "text": "Agency:",
+            "ref": "Checklist (2)!D102"
+          },
+          {
+            "text": "JVA with another private socialized housing Developer",
+            "ref": "Checklist (2)!C103"
+          },
+          {
+            "text": "Developer:",
+            "ref": "Checklist (2)!D104"
+          },
+          {
+            "text": "JVA with a Non-Gov't Organization (NGO) engaged in the provision of SH",
+            "ref": "Checklist (2)!C105"
+          },
+          {
+            "text": "NGO:",
+            "ref": "Checklist (2)!D106"
+          },
+          {
+            "text": "With Accreditation form Central Office",
+            "ref": "Checklist (2)!C107"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B108",
+        "title": "Participation in a new project under CMP through Land Development",
+        "category": "Socialized housing compliance",
+        "source": "Checklist (2)!B108",
+        "details": [
+          {
+            "text": "Providing parcel of land",
+            "ref": "Checklist (2)!C109"
+          },
+          {
+            "text": "Land Development or housing",
+            "ref": "Checklist (2)!C110"
+          },
+          {
+            "text": "provision or development of right of way or access to roads, upgrading of amenities, facilities or other forms of development",
+            "ref": "Checklist (2)!C111"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B112",
+        "title": "Participation through Investment",
+        "category": "Socialized housing compliance",
+        "source": "Checklist (2)!B112",
+        "details": [
+          {
+            "text": "Through third party for implementation of land development, installation of water facility or power utility",
+            "ref": "Checklist (2)!C113"
+          },
+          {
+            "text": "Construction through third party of non-saleable and non-recoverable housing projects",
+            "ref": "Checklist (2)!C114"
+          },
+          {
+            "text": "on land owned by government or donated private land",
+            "ref": "Checklist (2)!C115"
+          },
+          {
+            "text": "housing for AFP personnel",
+            "ref": "Checklist (2)!E116"
+          },
+          {
+            "text": "public housing",
+            "ref": "Checklist (2)!E117"
+          },
+          {
+            "text": "rehabilitation of calamity-stricken communities",
+            "ref": "Checklist (2)!E118"
+          },
+          {
+            "text": "housing for street children, indigent elderly and people with disability",
+            "ref": "Checklist (2)!E119"
+          },
+          {
+            "text": "Other types of projects",
+            "ref": "Checklist (2)!E120"
+          },
+          {
+            "text": "Escrow Draft (if needed)",
+            "ref": "Checklist (2)!C121"
+          },
+          {
+            "text": "Endorsement to Central Office",
+            "ref": "Checklist (2)!C122"
+          },
+          {
+            "text": "MOA with:",
+            "ref": "Checklist (2)!C123"
+          },
+          {
+            "text": "Endorsement approved by Central Office",
+            "ref": "Checklist (2)!C124"
+          },
+          {
+            "text": "Final Escrow Agreement",
+            "ref": "Checklist (2)!C125"
+          },
+          {
+            "text": "Proof of Bank Deposit",
+            "ref": "Checklist (2)!C126"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B127",
+        "title": "Participation or subscription of \"Asset-Backed Securities\"",
+        "category": "Socialized housing compliance",
+        "source": "Checklist (2)!B127",
+        "details": [
+          {
+            "text": "Housing agency:",
+            "ref": "Checklist (2)!C128"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B129",
+        "title": "Deferment to submit Socialized Housing Compliance",
+        "category": "Socialized housing compliance",
+        "source": "Checklist (2)!B129",
+        "details": [
+          {
+            "text": "Undertaking to submit SH Compliance",
+            "ref": "Checklist (2)!C130"
+          },
+          {
+            "text": "Name/Title of proposed compliance:",
+            "ref": "Checklist (2)!C131"
+          },
+          {
+            "text": "Location:",
+            "ref": "Checklist (2)!D132"
+          },
+          {
+            "text": "Owner:",
+            "ref": "Checklist (2)!D133"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B134",
+        "title": "Computation of Socialized housing compliance",
+        "category": "Socialized housing compliance",
+        "source": "Checklist (2)!B134",
+        "details": []
+      },
+      {
+        "id": "subdivision-B135",
+        "title": "BIR Zonal Value Certification",
+        "category": "Financial & corporate documents",
+        "source": "Checklist (2)!B135",
+        "details": []
+      },
+      {
+        "id": "subdivision-B136",
+        "title": "Program of Development duly signed by Licensed Civil Engineer",
+        "category": "Financial & corporate documents",
+        "source": "Checklist (2)!B136",
+        "details": []
+      },
+      {
+        "id": "subdivision-B137",
+        "title": "Project Study",
+        "category": "Financial & corporate documents",
+        "source": "Checklist (2)!B137",
+        "details": [
+          {
+            "text": "Marketability",
+            "ref": "Checklist (2)!C138"
+          },
+          {
+            "text": "Cash Flow",
+            "ref": "Checklist (2)!C139"
+          },
+          {
+            "text": "Project Amount",
+            "ref": "Checklist (2)!C140"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B141",
+        "title": "Notarized Fact Sheet",
+        "category": "Financial & corporate documents",
+        "source": "Checklist (2)!B141",
+        "details": [
+          {
+            "text": "Main Project",
+            "ref": "Checklist (2)!C142"
+          },
+          {
+            "text": "Socialzied Project",
+            "ref": "Checklist (2)!C143"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B144",
+        "title": "Latest Audited Financial Statement/Income Tax Returns",
+        "category": "Financial & corporate documents",
+        "source": "Checklist (2)!B144",
+        "details": []
+      },
+      {
+        "id": "subdivision-B145",
+        "title": "Sample contract to Sell",
+        "category": "Financial & corporate documents",
+        "source": "Checklist (2)!B145",
+        "details": []
+      },
+      {
+        "id": "subdivision-B146",
+        "title": "Management/Development Contract with:",
+        "category": "Financial & corporate documents",
+        "source": "Checklist (2)!B146",
+        "details": [
+          {
+            "text": "Project Name mentioned (the same as application)",
+            "ref": "Checklist (2)!C147"
+          },
+          {
+            "text": "Title/property in the JVA/MOA the same with the application",
+            "ref": "Checklist (2)!C148"
+          },
+          {
+            "text": "Area considered is the same with the application",
+            "ref": "Checklist (2)!C149"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B150",
+        "title": "Deed of Absolute Sale/Deed of assumption to mortgage (if any)",
+        "category": "Financial & corporate documents",
+        "source": "Checklist (2)!B150",
+        "details": []
+      },
+      {
+        "id": "subdivision-B151",
+        "title": "SEC Reg. Articles of Incorporation and By-Laws",
+        "category": "Financial & corporate documents",
+        "source": "Checklist (2)!B151",
+        "details": []
+      },
+      {
+        "id": "subdivision-B152",
+        "title": "DAR Clearance/conversion",
+        "category": "Clearances & utilities",
+        "source": "Checklist (2)!B152",
+        "details": []
+      },
+      {
+        "id": "subdivision-B153",
+        "title": "Certified True Copy of ECC/CNC from DENR",
+        "category": "Clearances & utilities",
+        "source": "Checklist (2)!B153",
+        "details": []
+      },
+      {
+        "id": "subdivision-B154",
+        "title": "Affidavit Compliance w/ Res.No.532/PD953 (Tree Planting)",
+        "category": "Clearances & utilities",
+        "source": "Checklist (2)!B154",
+        "details": []
+      },
+      {
+        "id": "subdivision-B155",
+        "title": "Electrical Dist. Permit/Contract",
+        "category": "Clearances & utilities",
+        "source": "Checklist (2)!B155",
+        "details": [
+          {
+            "text": "From Local Public Service Provider",
+            "ref": "Checklist (2)!C156"
+          },
+          {
+            "text": "Not Local Public Service Provider",
+            "ref": "Checklist (2)!C157"
+          },
+          {
+            "text": "Certification form Local Public Service Provider (not capable to provide)",
+            "ref": "Checklist (2)!D158"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B159",
+        "title": "Water Dist. Permit/Contract",
+        "category": "Clearances & utilities",
+        "source": "Checklist (2)!B159",
+        "details": [
+          {
+            "text": "From Local Public Service Provider",
+            "ref": "Checklist (2)!C160"
+          },
+          {
+            "text": "Not Local Public Service Provider",
+            "ref": "Checklist (2)!C161"
+          },
+          {
+            "text": "Certification form Local Public Service Provider (not capable to provide)",
+            "ref": "Checklist (2)!D162"
+          },
+          {
+            "text": "Deep Well",
+            "ref": "Checklist (2)!C163"
+          },
+          {
+            "text": "Certification form NWRB",
+            "ref": "Checklist (2)!D164"
+          },
+          {
+            "text": "with potability test",
+            "ref": "Checklist (2)!E165"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B170",
+        "title": "Publisher's affidavits of publication",
+        "category": "Publication & guarantees",
+        "source": "Checklist (2)!B170",
+        "details": [
+          {
+            "text": "Copy of newspaper publication",
+            "ref": "Checklist (2)!C171"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B172",
+        "title": "Affidavit: Posting of Billboard Notice",
+        "category": "Publication & guarantees",
+        "source": "Checklist (2)!B172",
+        "details": []
+      },
+      {
+        "id": "subdivision-B173",
+        "title": "Monitoring Clearance",
+        "category": "Publication & guarantees",
+        "source": "Checklist (2)!B173",
+        "details": []
+      },
+      {
+        "id": "subdivision-B174",
+        "title": "Affidavit of Undertaking to Submit Titles",
+        "category": "Publication & guarantees",
+        "source": "Checklist (2)!B174",
+        "details": []
+      },
+      {
+        "id": "subdivision-B175",
+        "title": "Accomplishment computation for Performance Bond",
+        "category": "Publication & guarantees",
+        "source": "Checklist (2)!B175",
+        "details": []
+      },
+      {
+        "id": "subdivision-B176",
+        "title": "Performance Bond",
+        "category": "Publication & guarantees",
+        "source": "Checklist (2)!B176",
+        "details": [
+          {
+            "text": "Amount:",
+            "ref": "Checklist (2)!B177"
+          },
+          {
+            "text": "Name of Bonding company:",
+            "ref": "Checklist (2)!B178"
+          },
+          {
+            "text": "Validity:",
+            "ref": "Checklist (2)!B179"
+          },
+          {
+            "text": "with Rider",
+            "ref": "Checklist (2)!C180"
+          },
+          {
+            "text": "with Insurance Co.'s Renewal of Authority",
+            "ref": "Checklist (2)!C181"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B182",
+        "title": "Cash Bond",
+        "category": "Publication & guarantees",
+        "source": "Checklist (2)!B182",
+        "details": [
+          {
+            "text": "Amount:",
+            "ref": "Checklist (2)!B183"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B184",
+        "title": "Engineering plans of housing units (if any)",
+        "category": "Final plans & processing",
+        "source": "Checklist (2)!B184",
+        "details": [
+          {
+            "text": "Signed and sealed by a Licensed Professional",
+            "ref": "Checklist (2)!C185"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B186",
+        "title": "Processing Fee",
+        "category": "Final plans & processing",
+        "source": "Checklist (2)!B186",
+        "details": [
+          {
+            "text": "O.R. No:",
+            "ref": "Checklist (2)!B187"
+          },
+          {
+            "text": "Amount:",
+            "ref": "Checklist (2)!B188"
+          },
+          {
+            "text": "Date:",
+            "ref": "Checklist (2)!B189"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B190",
+        "title": "LGU approved plans",
+        "category": "Final plans & processing",
+        "source": "Checklist (2)!B190",
+        "details": [
+          {
+            "text": "Site Development Plan",
+            "ref": "Checklist (2)!C191"
+          },
+          {
+            "text": "Vicinity Map / Location Plan",
+            "ref": "Checklist (2)!C192"
+          },
+          {
+            "text": "Topographic Map",
+            "ref": "Checklist (2)!C193"
+          },
+          {
+            "text": "Drainage Layout",
+            "ref": "Checklist (2)!C194"
+          },
+          {
+            "text": "Drainage Profile  Outfall",
+            "ref": "Checklist (2)!C195"
+          },
+          {
+            "text": "Public ( LGU existing drainage line)",
+            "ref": "Checklist (2)!D196"
+          },
+          {
+            "text": "Private",
+            "ref": "Checklist (2)!D197"
+          },
+          {
+            "text": "Have clearance",
+            "ref": "Checklist (2)!E198"
+          },
+          {
+            "text": "Road Cross-Sections",
+            "ref": "Checklist (2)!C199"
+          },
+          {
+            "text": "Drainage Cross-Sections",
+            "ref": "Checklist (2)!C200"
+          },
+          {
+            "text": "Road Profile",
+            "ref": "Checklist (2)!C201"
+          },
+          {
+            "text": "Site Grading Plan",
+            "ref": "Checklist (2)!C202"
+          },
+          {
+            "text": "Electrical Distribution Plan",
+            "ref": "Checklist (2)!C203"
+          },
+          {
+            "text": "Water Distribution Plan",
+            "ref": "Checklist (2)!C204"
+          },
+          {
+            "text": "Tree Planting Scheme",
+            "ref": "Checklist (2)!C205"
+          },
+          {
+            "text": "Others",
+            "ref": "Checklist (2)!C206"
+          }
+        ]
+      },
+      {
+        "id": "subdivision-B208",
+        "title": "Other Required documents",
+        "category": "Final plans & processing",
+        "source": "Checklist (2)!B208",
+        "details": []
+      }
+    ],
+    "rates": {
+      "pd957Registration": {
+        "value": 2880,
+        "source": "Fee!L3"
+      },
+      "economicRegistration": {
+        "value": 720,
+        "source": "Fee!L12"
+      },
+      "socializedRegistration": {
+        "value": 420,
+        "source": "Fee!L11"
+      },
+      "pd957Processing": {
+        "value": 216,
+        "source": "Fee!G5"
+      },
+      "pd957Housing": {
+        "value": 14.4,
+        "source": "Fee!G6"
+      },
+      "socializedProcessing": {
+        "value": 24,
+        "source": "Fee!G14"
+      },
+      "economicProcessing": {
+        "value": 72,
+        "source": "Fee!G15"
+      },
+      "bp220Housing": {
+        "value": 3,
+        "source": "Fee!G16"
+      },
+      "crForm": {
+        "value": 216,
+        "source": "Fee!L7"
+      },
+      "lsForm": {
+        "value": 216,
+        "source": "Fee!L8"
+      },
+      "inspection": {
+        "value": 1500,
+        "source": "Fee!G20"
+      },
+      "provisional": {
+        "value": 216,
+        "source": "Fee!G23"
+      }
+    }
+  }
+}
