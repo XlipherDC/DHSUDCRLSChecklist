@@ -153,3 +153,13 @@ test('unknown routes and oversized requests fail without changing stored data', 
   assert.equal(large.status, 413);
   assert.equal(await h.client().version(), 0);
 });
+
+test('shared workspace preserves mixed categories, TLS undertakings and lot breakdown', async t => {
+ const h=harness(t), a=h.client(), b=h.client();
+ const p=createProject({name:'Mixed TLS',type:'subdivision',scheme:'pd957',categories:['openMarket','economic'],application:'TLS',tlsUndertakings:['ecc','verifiedSurveyReturns'],lotCounts:{houseAndLot:35,lotOnly:15}},'mixed-tls');
+ await a.write([p],[],new Map());
+ const loaded=(await b.read()).projects[0];
+ for(const key of ['categories','application','tlsUndertakings','lotCounts']) assert.deepEqual(loaded[key],p[key]);
+ loaded.lotCounts.lotOnly=-1;
+ await assert.rejects(b.write([loaded],[],revisionMap([loaded])),/whole numbers/);
+});

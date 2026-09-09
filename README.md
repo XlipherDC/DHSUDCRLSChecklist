@@ -7,6 +7,9 @@ A static, authentication-free app for processors reviewing Certificate of Regist
 - Not submitted, for review, verified, needs revision, and not applicable statuses. N/A requires a reason.
 - Received dates, processor names, and review remarks; no document uploading.
 - PD957, BP220 economic, and BP220 socialized fee assessments, with itemized quantities, rates, references, payment records, and balance.
+- Multiple subdivision categories: PD957 Open Market, PD957 Medium Cost, BP220 Economic, and BP220 Socialized.
+- CRLS, TLS, and CLS application types; TLS undertaking selections for ECC, Building Permit, and Verified Survey Returns.
+- Whole-project House and Lot / Lot Only counts with an automatic total. Fee assessments retain an explicitly selected rate schedule and separate assessed quantities.
 - JSON backup/restore of project records, import collision handling, and printable project summaries.
 - Responsive layout, native keyboard-accessible forms/dialogs, and no sign-in.
 - Optional shared workspace using a Cloudflare Worker and D1 database, while the interface remains on GitHub Pages.
