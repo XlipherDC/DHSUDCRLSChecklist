@@ -175,3 +175,14 @@ test('shared saved assessments retain separate CRs and LS quantities for every c
   loaded.fees.registrations.economic=true;
   await assert.rejects(b.write([loaded],[],revisionMap([loaded])),/CR selections must match/);
 });
+
+test('LGU submitted-plan selections sync across processors and support clearing selections', async t => {
+  const h=harness(t), a=h.client(), b=h.client();
+  const p=project('plan-review'), id='subdivision-B190';
+  p.reviews[id]={status:'submitted',remarks:'Plans received.',receivedDate:'2026-09-09',reviewedBy:'Processor A',updatedAt:p.updatedAt,submittedPlans:['Checklist (2)!C191','Checklist (2)!C192']};
+  await a.write([p],[],new Map());
+  const loaded=(await b.read()).projects[0];assert.deepEqual(loaded.reviews[id],p.reviews[id]);
+  loaded.reviews[id].submittedPlans=[];
+  await b.write([loaded],[],revisionMap([loaded]));
+  assert.deepEqual((await a.read()).projects[0].reviews[id].submittedPlans,[]);
+});

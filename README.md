@@ -4,6 +4,7 @@ A static, authentication-free app for processors reviewing Certificate of Regist
 
 - Subdivision and condominium project records, search, and project details.
 - 57 subdivision and 62 condominium document requirements with nested review prompts.
+- LGU approved plans use saved submitted-item checkboxes for both project types, with a live count and itemized printed summaries. The overall review status remains a processor decision.
 - Not submitted, for review, verified, needs revision, and not applicable statuses. N/A requires a reason.
 - Received dates, processor names, and review remarks; no document uploading.
 - PD957, BP220 economic, and BP220 socialized fee assessments, with itemized quantities, rates, payment records, and balance.
