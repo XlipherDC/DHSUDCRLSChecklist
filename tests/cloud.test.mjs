@@ -117,7 +117,7 @@ test('CORS supports authorized GitHub Pages and sends no wildcard or cached reco
 
 test('server rejects invalid records even when the client-side validator is bypassed', async t => {
   const h = harness(t);
-  const p = project(); p.fees.lots = -4;
+  const p = project(); p.fees.licenses.pd957.lots = -4;
   const response = await h.direct({ changes: [p], deleted: [], expected: { [p.id]: null }, requestId: crypto.randomUUID() });
   assert.equal(response.status, 400);
   assert.equal((await h.client().read()).projects.length, 0);
@@ -162,4 +162,16 @@ test('shared workspace preserves mixed categories, TLS undertakings and lot brea
  for(const key of ['categories','application','tlsUndertakings','lotCounts']) assert.deepEqual(loaded[key],p[key]);
  loaded.lotCounts.lotOnly=-1;
  await assert.rejects(b.write([loaded],[],revisionMap([loaded])),/whole numbers/);
+});
+
+test('shared saved assessments retain one chosen CR and LS quantities for every classification', async t => {
+  const h=harness(t), a=h.client(), b=h.client();
+  const p=createProject({name:'Mixed assessment',type:'subdivision',scheme:'pd957',categories:['openMarket','socialized'],projectArea:25000},'shared-fees');
+  p.fees.crCategory='socialized';p.fees.saved=true;
+  p.fees.licenses.openMarket.lots=10;p.fees.licenses.socialized.lots=20;
+  await a.write([p],[],new Map());
+  const loaded=(await b.read()).projects[0];
+  assert.deepEqual(loaded.fees,p.fees);
+  loaded.fees.crCategory='economic';
+  await assert.rejects(b.write([loaded],[],revisionMap([loaded])),/applicable CR/);
 });

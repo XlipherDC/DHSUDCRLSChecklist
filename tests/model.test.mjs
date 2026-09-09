@@ -1,10 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { createProject, calculateFees, progress, projectStatus, parseBackup, validateProject } from '../lib/model.js';
+import { createProject, calculateFees, progress, projectStatus, parseBackup, validateProject, defaultFees } from '../lib/model.js';
 
 const catalog = JSON.parse(await readFile(new URL('../data/catalog.json', import.meta.url), 'utf8'));
-const project = (type = 'subdivision', scheme = 'pd957') => createProject({ name: 'Test project', type, scheme }, 'test-project');
+// Historical assessment fixtures retain the original workbook calculation.
+const project = (type = 'subdivision', scheme = 'pd957') => ({ ...createProject({ name: 'Test project', type, scheme }, 'test-project'), fees: defaultFees() });
 const review = (status = 'verified', remarks = '') => ({ status, remarks, receivedDate: '2026-09-08', reviewedBy: 'Test processor', updatedAt: new Date().toISOString() });
 const backup = projects => JSON.stringify({ format: 'crls-workspace', version: 1, projects });
 

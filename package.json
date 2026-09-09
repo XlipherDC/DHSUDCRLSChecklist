@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Static CRLS document checklist and source-based fee assessment",
+  "description": "Static CRLS document checklist and classification-based fee assessment",
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "build": "node scripts/build.mjs",
