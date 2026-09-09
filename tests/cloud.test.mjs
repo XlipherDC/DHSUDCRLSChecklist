@@ -164,14 +164,14 @@ test('shared workspace preserves mixed categories, TLS undertakings and lot brea
  await assert.rejects(b.write([loaded],[],revisionMap([loaded])),/whole numbers/);
 });
 
-test('shared saved assessments retain one chosen CR and LS quantities for every classification', async t => {
+test('shared saved assessments retain separate CRs and LS quantities for every classification', async t => {
   const h=harness(t), a=h.client(), b=h.client();
   const p=createProject({name:'Mixed assessment',type:'subdivision',scheme:'pd957',categories:['openMarket','socialized'],projectArea:25000},'shared-fees');
-  p.fees.crCategory='socialized';p.fees.saved=true;
+  p.fees.saved=true;
   p.fees.licenses.openMarket.lots=10;p.fees.licenses.socialized.lots=20;
   await a.write([p],[],new Map());
   const loaded=(await b.read()).projects[0];
   assert.deepEqual(loaded.fees,p.fees);
-  loaded.fees.crCategory='economic';
-  await assert.rejects(b.write([loaded],[],revisionMap([loaded])),/applicable CR/);
+  loaded.fees.registrations.economic=true;
+  await assert.rejects(b.write([loaded],[],revisionMap([loaded])),/CR selections must match/);
 });

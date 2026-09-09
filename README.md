@@ -9,7 +9,7 @@ A static, authentication-free app for processors reviewing Certificate of Regist
 - PD957, BP220 economic, and BP220 socialized fee assessments, with itemized quantities, rates, payment records, and balance.
 - Multiple subdivision categories: PD957 Open Market, PD957 Medium Cost, BP220 Economic, and BP220 Socialized.
 - CRLS, TLS, and CLS application types; TLS undertaking selections for ECC, Building Permit, and Verified Survey Returns.
-- Whole-project House and Lot / Lot Only counts with an automatic total. Fee assessments use one processor-selected CR fee and separate LS quantities for every project classification.
+- Whole-project House and Lot / Lot Only counts with an automatic total. Fee assessments use separate applicable CR charges and separate LS quantities for every project classification.
 - JSON backup/restore of project records, import collision handling, and printable project summaries.
 - Responsive layout, native keyboard-accessible forms/dialogs, and no sign-in.
 - Optional shared workspace using a Cloudflare Worker and D1 database, while the interface remains on GitHub Pages.
@@ -64,22 +64,25 @@ The workspace key is access control for the shared data. Keep it private. It is 
 
 The current assessment uses the rates supplied by the workspace owner on September 9, 2026, defined in `lib/fee-schedule.js`.
 
-| Project classification | Single CR processing fee | LS processing | Housing component |
+| Project classification | CR processing fee | LS processing | Housing component |
 | --- | --- | --- | --- |
 | PD957 subdivision (Open Market or Medium Cost) | PHP 2,880 | PHP 216 per saleable lot | PHP 14.40 per square metre of housing floor area, when there is a House and Lot component |
-| BP220 Economic subdivision | PHP 720 | PHP 72 per saleable lot | No additional housing charge in the supplied schedule |
-| BP220 Socialized subdivision | PHP 420 | PHP 24 per saleable lot | No additional housing charge in the supplied schedule |
+| BP220 Economic subdivision | PHP 720 | PHP 72 per saleable lot | PHP 3 per square metre of housing floor area, when there is a House and Lot component |
+| BP220 Socialized subdivision | PHP 420 | PHP 24 per saleable lot | PHP 3 per square metre of housing floor area, when there is a House and Lot component |
 | PD957 condominium | PHP 2,880 | Residential PHP 17.30 / saleable square metre; commercial PHP 36 / saleable square metre | Included in saleable-area calculation |
 | BP220 condominium | PHP 720 | Residential PHP 7.20 / saleable square metre; commercial PHP 10.65 / saleable square metre | Included in saleable-area calculation |
 
-- A project has one CR. For mixed classifications, the processor selects one applicable CR fee; the fees are never added together. CR may be excluded from an assessment when it is not being charged.
-- Each classification has a separate LS calculation. Open Market and Medium Cost remain separate LS classifications even though their rates match. Enter saleable lots and any PD957 housing floor area for each subdivision classification.
+- CR charges are separate for PD957 (PHP 2,880), BP220 Economic (PHP 720), and BP220 Socialized (PHP 420), whenever those classifications apply. Economic and Socialized are both charged when both are present. Open Market and Medium Cost share the PD957 CR. Each applicable CR can be included or excluded from the assessment. BP220 condominiums have a PHP 720 CR.
+- Each classification has a separate LS calculation. Open Market and Medium Cost remain separate LS classifications even though their rates match. Enter saleable lots and housing floor area for each subdivision classification. PD957 housing costs PHP 14.40 per square metre; both Economic and Socialized housing cost PHP 3 per square metre.
 - Inspection is charged once per project at PHP 1,500 multiplied by the project area in hectares rounded UP to a whole hectare. For example, 2.5 hectares costs 3 x PHP 1,500 = PHP 4,500. This applies to every PD957 and BP220 project.
 - The initial inspection area comes from project land area in square metres divided by 10,000. Updating land area resets the assessment to a draft with the revised inspection area.
-- New assessments do not include the old CR/LS form, BP220 housing-area, provisional-certificate, or per-lot inspection charges.
+- Each CR form and each LS form costs PHP 216. Form quantities start with the applicable CR and LS counts and can be adjusted. Unmodified CR form quantities follow CR inclusion changes.
+- New assessments do not include provisional-certificate or per-lot inspection charges.
 - Each fee line rounds to centavos before summing. Payments affect balance and overpayment, not the assessed total.
 
-Previously saved workbook assessments retain their original calculation until the processor explicitly saves an assessment under the new schedule. Historical backups remain readable. When upgrading a mixed-classification assessment, combined quantities are not automatically duplicated across LS classifications.
+Previously saved workbook and version 2 assessments retain their original calculation until the processor explicitly saves an assessment under the new schedule. Historical backups remain readable. When upgrading a mixed-classification assessment, combined quantities are not automatically duplicated across LS classifications.
+
+The current assessment format is version 3. Deploy the updated Cloudflare Worker together with the interface so shared storage validates the revised fields; historical versions remain supported.
 
 ## Source mapping
 

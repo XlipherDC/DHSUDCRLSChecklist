@@ -2,13 +2,17 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { createProject, calculateFees, validateProject, parseBackup, defaultFees } from '../lib/model.js';
-import { prepareAssessment, registrationOptions } from '../lib/fee-schedule.js';
+import { prepareAssessment, registrationOptions } from '../lib/fee-schedule-v2.js';
 const catalog = JSON.parse(await readFile(new URL('../data/catalog.json', import.meta.url), 'utf8'));
+// Version 2 regression fixtures protect previously saved assessments.
+function historicalProject(values, id) {
+ const p=createProject(values,id);p.fees=prepareAssessment({...p,fees:defaultFees()});return p;
+}
 function subdivision(categories = ['openMarket'], extra = {}) {
   const scheme = ['openMarket', 'mediumCost'].includes(categories[0]) ? 'pd957' : categories[0];
-  return createProject({name:'Fee test', type:'subdivision', scheme, categories, projectArea:25000, ...extra}, 'fee-test');
+  return historicalProject({name:'Fee test', type:'subdivision', scheme, categories, projectArea:25000, ...extra}, 'fee-test');
 }
-function condo(scheme = 'pd957') { return createProject({name:'Condo',type:'condominium',scheme,projectArea:25000},'condo-test'); }
+function condo(scheme = 'pd957') { return historicalProject({name:'Condo',type:'condominium',scheme,projectArea:25000},'condo-test'); }
 const calc = p => calculateFees(p,catalog);
 const amount = (p,kind) => calc(p).lines.filter(l=>l.kind===kind).reduce((sum,l)=>sum+l.amount,0);
 

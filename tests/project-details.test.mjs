@@ -11,9 +11,9 @@ test('mixed categories, TLS undertakings and whole-project lot counts survive ba
  assert.equal(categoryLabels(p,SCHEMES),'PD957 - Open Market, PD957 - Medium Cost, BP220 - Economic, BP220 - Socialized');
  assert.equal(projectDetailRows(p).find(([key])=>key==='Total lots')[1],'50');
  assert.match(projectDetailRows(p)[0][1],/Environmental Compliance Certificate, Building Permit, Verified Survey Returns/);
- p.fees.crCategory='openMarket';
+
  assert.equal(calculateFees(p,catalog).licenseCount,4);
- assert.equal(calculateFees(p,catalog).lines.filter(l=>l.kind==='registration').length,1);
+ assert.equal(calculateFees(p,catalog).lines.filter(l=>l.kind==='registration').length,3);
 });
 test('invalid categories and incompatible project classifications are rejected',()=>{
  for(const categories of [[],['unknown'],['openMarket','openMarket'],['__proto__'], 'openMarket']) assert.throws(()=>validateProject(make({categories}),catalog),/categor|classification/);
